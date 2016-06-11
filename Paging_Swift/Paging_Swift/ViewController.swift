@@ -95,6 +95,28 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
     func presentationIndexForPageViewController(pageViewController: UIPageViewController) -> Int {
         return 0
     }
+    
+    // MARK: - Additions
+    
+    func currentControllerIndex() -> Int {
+        
+        let pageItemController = self.currentController()
+        
+        if let controller = pageItemController as? PageItemController {
+            return controller.itemIndex
+        }
+        
+        return -1
+    }
+ 
+    func currentController() -> UIViewController? {
+        
+        if self.pageViewController?.viewControllers?.count > 0 {
+            return self.pageViewController?.viewControllers![0]
+        }
+        
+        return nil
+    }
 
 }
 

@@ -111,4 +111,28 @@
     return 0;
 }
 
+#pragma mark - Additions
+
+- (NSUInteger)currentControllerIndex
+{
+    PageItemController *pageItemController = (PageItemController *) [self currentController];
+    
+    if (pageItemController)
+    {
+        return pageItemController.itemIndex;
+    }
+    
+    return -1;
+}
+
+- (UIViewController *)currentController
+{
+    if ([self.pageViewController.viewControllers count])
+    {
+        return self.pageViewController.viewControllers[0];
+    }
+    
+    return nil;
+}
+
 @end
