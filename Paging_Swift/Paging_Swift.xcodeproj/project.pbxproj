@@ -107,6 +107,8 @@
 				TargetAttributes = {
 					B2A6778219FD197300B3F6DB = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6P8Q9Q6J62;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -255,9 +257,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6P8Q9Q6J62;
 				INFOPLIST_FILE = Paging_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -265,9 +269,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6P8Q9Q6J62;
 				INFOPLIST_FILE = Paging_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
