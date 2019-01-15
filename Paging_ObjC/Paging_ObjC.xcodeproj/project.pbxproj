@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B2A677B619FD1A0100B3F6DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A677AA19FD1A0100B3F6DB /* AppDelegate.m */; };
 		B2A677B919FD1A0100B3F6DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A677AF19FD1A0100B3F6DB /* Images.xcassets */; };
-		B2A677BA19FD1A0100B3F6DB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2A677B019FD1A0100B3F6DB /* Info.plist */; };
 		B2A677BB19FD1A0100B3F6DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A677B119FD1A0100B3F6DB /* main.m */; };
 		B2A677BC19FD1A0100B3F6DB /* PageItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A677B319FD1A0100B3F6DB /* PageItemController.m */; };
 		B2A677BD19FD1A0100B3F6DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A677B519FD1A0100B3F6DB /* ViewController.m */; };
@@ -134,7 +133,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2A677BA19FD1A0100B3F6DB /* Info.plist in Resources */,
 				B2A677B919FD1A0100B3F6DB /* Images.xcassets in Resources */,
 				B2A677C419FD1A1900B3F6DB /* Main.storyboard in Resources */,
 				B2A677C319FD1A1700B3F6DB /* LaunchScreen.xib in Resources */,
